@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import './App.css';
 import {Outlet, useNavigate} from 'react-router-dom';
 import Nav from './layout/Nav';
-import useLocalStorage from './hooks/useLocalStorage';
 import {useUserStore} from './store/useUserStore';
 
 const App = () => {

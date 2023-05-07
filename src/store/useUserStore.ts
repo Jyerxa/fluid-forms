@@ -5,7 +5,7 @@ export interface UserStore {
     setUserName: (user: string) => void;
     clearUserName: () => void;
 }
-export const useUserStore = create<UserStore>((set, get) => ({
+export const useUserStore = create<UserStore>((set) => ({
     userName: '',
     setUserName: (userName: string) => set({userName}),
     clearUserName: () => set({userName: ''})

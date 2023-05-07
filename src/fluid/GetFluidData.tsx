@@ -19,8 +19,7 @@ const getFluidData = async () => {
 
     if (!containerId) { // New session
         ({container, services} = await client.createContainer(containerSchema));
-        const id = await container.attach();
-        window.location.hash = id;
+        window.location.hash = await container.attach();
     } else { // Join session
         ({container, services} = await client.getContainer(containerId, containerSchema));
     }

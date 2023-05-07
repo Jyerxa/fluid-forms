@@ -66,7 +66,7 @@ const SharedForm = ({docDef,docData,focusData}:SharedFormProps) => {
             // if(docDef) docDef.off('valueChanged', updateLocalFields);
             // if(docData) docData.off('valueChanged', updateLocalDocData);
         }
-    },[docDef, docData]);
+    },[docDef, docData, focusData]);
 
     const handleFieldChanged = (event: React.ChangeEvent<HTMLInputElement>, key: string) => {
         const value = event.target.value;

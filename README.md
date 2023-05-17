@@ -1,7 +1,7 @@
 # Fluid Froms
 
 If you are reading this you probably don't want to be here. This is a sandbox app to test out some ideas for a new form builder.
-It is not intended to be used for anything other than testing and proof on concept. 
+It is not intended to be used for anything other than testing and proof of concept. 
 
 ## References
 - [Fluid Framework](https://fluidframework.com/)
